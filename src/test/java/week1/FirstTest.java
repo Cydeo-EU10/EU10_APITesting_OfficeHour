@@ -7,9 +7,14 @@ import org.junit.jupiter.api.*;
 
 public class FirstTest {
 
-    @Test
+   @Test
     public void test1(){
-        Response response = RestAssured.given().accept(ContentType.JSON)
-                .when().get();
-    }
+      Response response =  RestAssured.given().accept(ContentType.JSON)
+               .when().get("http://3.216.30.92:8000/api/spartans/7");
+
+       System.out.println(response.statusCode());
+       Assertions.assertEquals(200,response.statusCode());
+       Assertions.assertEquals("application/json",response.header("Content-Type"));
+       response.prettyPrint();
+   }
 }
