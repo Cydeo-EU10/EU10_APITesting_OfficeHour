@@ -33,7 +33,9 @@ public class HamcrestMatchers extends SpartanTestBase {
                 .and().body("name", is("Hershel"))
                 .extract().jsonPath();
 
-        assertThat(jsonPath,hasItem("Male"));
+        assertThat(jsonPath.getString("name"),is("Hershel"));
+
+
 
     }
 }

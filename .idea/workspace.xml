@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93d442a-7d76-4e7a-854c-f68915de9cf2" name="Changes" comment="project created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestMatchers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/ResponseBodyValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/SpartanTestBase.java" afterDir="false" />
+    <list default="true" id="f93d442a-7d76-4e7a-854c-f68915de9cf2" name="Changes" comment="week2 is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/Deserilization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/POJO/SearchSpartan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/POJO/SingleSpartan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/HamcrestMatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestMatchers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HamcrestMatchers.test2">
-    <configuration name="HamcrestMatchers.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Deserilization.test4">
+    <configuration name="Deserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU10_APITesting_OfficeHour" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +68,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestMatchers" />
+      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deserilization.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deserilization.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deserilization.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,61 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseBodyValidation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.ResponseBodyValidation" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseBodyValidation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.ResponseBodyValidation" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseBodyValidation.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.ResponseBodyValidation" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Deserilization.test4" />
+        <item itemvalue="JUnit.Deserilization.test3" />
+        <item itemvalue="JUnit.Deserilization.test2" />
+        <item itemvalue="JUnit.Deserilization.test1" />
         <item itemvalue="JUnit.HamcrestMatchers.test2" />
-        <item itemvalue="JUnit.HamcrestMatchers.test1" />
-        <item itemvalue="JUnit.ResponseBodyValidation.test3" />
-        <item itemvalue="JUnit.ResponseBodyValidation.test2" />
-        <item itemvalue="JUnit.ResponseBodyValidation.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683736975221</updated>
       <workItem from="1683736976464" duration="1698000" />
-      <workItem from="1684342632152" duration="2804000" />
+      <workItem from="1684342632152" duration="6158000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683737128395</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683737128395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="week2 is added.">
+      <created>1684345637999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684345637999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+    <MESSAGE value="week2 is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="week2 is added." />
   </component>
 </project>
