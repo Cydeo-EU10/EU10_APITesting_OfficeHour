@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93d442a-7d76-4e7a-854c-f68915de9cf2" name="Changes" comment="week2 is updated.">
+    <list default="true" id="f93d442a-7d76-4e7a-854c-f68915de9cf2" name="Changes" comment="week 3 is created">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/SchemaValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/SpartanXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/singleSpatanSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week2/OtherMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/OtherMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/OtherMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/OtherMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,55 +58,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OtherMethods.test1">
-    <configuration name="Deserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Deserilization.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Deserilization.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10_APITesting_OfficeHour" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.Deserilization" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SchemaValidation.test1">
     <configuration name="Deserilization.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU10_APITesting_OfficeHour" />
       <extension name="coverage">
@@ -136,13 +91,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OtherMethods.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.OtherMethods" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaValidation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.SchemaValidation" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanXml.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10_APITesting_OfficeHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.SpartanXml" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SchemaValidation.test1" />
+        <item itemvalue="JUnit.SpartanXml.test1" />
+        <item itemvalue="JUnit.OtherMethods.test2" />
         <item itemvalue="JUnit.OtherMethods.test1" />
         <item itemvalue="JUnit.Deserilization.test4" />
-        <item itemvalue="JUnit.Deserilization.test3" />
-        <item itemvalue="JUnit.Deserilization.test2" />
-        <item itemvalue="JUnit.Deserilization.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +159,7 @@
       <updated>1683736975221</updated>
       <workItem from="1683736976464" duration="1698000" />
       <workItem from="1684342632152" duration="6443000" />
-      <workItem from="1684946521151" duration="1874000" />
+      <workItem from="1684946521151" duration="4009000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683737128395</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684349033471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="week 3 is created">
+      <created>1684948841305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684948841305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,7 @@
     <MESSAGE value="project created" />
     <MESSAGE value="week2 is added." />
     <MESSAGE value="week2 is updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="week2 is updated." />
+    <MESSAGE value="week 3 is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3 is created" />
   </component>
 </project>

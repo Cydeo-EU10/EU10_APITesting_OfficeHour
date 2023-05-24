@@ -9,6 +9,8 @@ import week2.POJO.*;
 
 import java.util.*;
 
+import static io.restassured.RestAssured.given;
+
 public class OtherMethods extends SpartanTestBase {
 
 
@@ -47,7 +49,7 @@ public class OtherMethods extends SpartanTestBase {
         bodyPojo.setGender("Male");
         bodyPojo.setPhone(5468792135L);
 
-        Response response = RestAssured.given().accept(ContentType.JSON) // telling api that we only receive json format as response
+        Response response = given().accept(ContentType.JSON) // telling api that we only receive json format as response
                 .and().contentType(ContentType.JSON)// telling api that the data we sent is json format
                 .and().body(bodyPojo)
                 .when().post("/api/spartans");
@@ -55,6 +57,16 @@ public class OtherMethods extends SpartanTestBase {
         Assertions.assertEquals(201,response.statusCode());
 
     }
+
+    @Test
+    public void test2(){
+        Response response = given().accept(ContentType.JSON)
+                .when().delete("/api/spartans/8");
+
+        Assertions.assertEquals(204,response.statusCode());
+    }
+
+
 
 
 
