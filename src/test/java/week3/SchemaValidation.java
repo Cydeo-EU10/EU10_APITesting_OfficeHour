@@ -11,12 +11,13 @@ import static io.restassured.RestAssured.given;
 public class SchemaValidation extends SpartanTestBase {
 
     @Test
-    public void test1(){
+    public void test1() {
         given().accept(ContentType.JSON)
                 .when().get("/api/spartans/915")
                 .then().statusCode(200)
                 .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("singleSpatanSchema.json"));
-
-
     }
+
+
+
 }
